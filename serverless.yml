@@ -14,7 +14,7 @@ provider:
 resources:
   Resources:
     NotesTable:
-      Type: AWS::DynamoDB::Table
+      Type: AWS::DynamoDB::Table # CloudFormation syntax
       DeletionPolicy: Retain
       Properties:
         TableName: ${self:provider.environment.NOTES_TABLE}
