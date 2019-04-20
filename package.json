@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
+    "serverless-domain-manager": "^3.2.1",
     "serverless-offline": "^4.9.4"
   },
   "scripts": {
